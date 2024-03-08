@@ -301,7 +301,7 @@ select {
 
 .kg-audio-time {
     width: 56px;
-    color: #fff
+    color: #fff !important
 }
 
 .kg-audio-duration {
