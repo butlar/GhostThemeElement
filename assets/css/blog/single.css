@@ -15,7 +15,7 @@
     text-transform: uppercase;
 }
 
-.single-meta-item + .single-meta-item::before {
+.single-meta-item+.single-meta-item::before {
     padding: 0 0.3rem;
     font-family: serif;
     content: "\02022";
@@ -107,7 +107,7 @@
     font-size: 1.8rem;
 }
 
-.single-footer-top + .single-footer-bottom {
+.single-footer-top+.single-footer-bottom {
     margin-top: 2rem;
 }
 
