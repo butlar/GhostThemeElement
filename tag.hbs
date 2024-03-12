@@ -387,24 +387,17 @@
                             </div>
                         </div>
                     </div>
-
                     <a class="u-permalink" href="{{url}}" aria-label="{{title}}"></a>
-
                 </article>
             </div>
-
             {{/foreach}}
         </div>
-
         {{pagination}}
-
     </main>
     <script>
         function shareOnSpotify(button) {
             // Replace 'your-url' and 'your-title' with the actual URL and title values
             var url = button.getAttribute("data-url").trim();
-
-
             var title = button.getAttribute('data-title').trim();
             var site = window.location.origin;
             console.log("url", site + url);
