@@ -25,6 +25,22 @@ a:hover {
     opacity: 0.8;
 }
 
+#gh-head {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+.site {
+    overflow-x: auto !important;
+}
+
+.site a {
+    text-decoration: none !important;
+}
+
+
+
+
 h1,
 h2,
 h3,
