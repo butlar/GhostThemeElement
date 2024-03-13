@@ -401,7 +401,7 @@
             var title = button.getAttribute('data-title').trim();
             var site = window.location.origin;
             console.log("url", site + url);
-            var spotifyShareUrl = 'https://open.spotify.com/share?uri=' + url;
+            var spotifyShareUrl = 'https://open.spotify.com/share?uri=' + site + url;
 
             // Open a new window for sharing on Spotify
             window.open(spotifyShareUrl, 'Share on Spotify', 'width=600,height=400');
@@ -415,7 +415,7 @@
             var site = window.location.origin;
             console.log("url", site + url);
 
-            var spotifyShareUrl = 'https://music.apple.com/share?uri=' + url;
+            var spotifyShareUrl = 'https://music.apple.com/share?uri=' + site + url;
 
             // Open a new window for sharing on Spotify
             window.open(spotifyShareUrl, 'Share on Spotify', 'width=600,height=400');
@@ -428,7 +428,7 @@
             var site = window.location.origin;
             console.log("url", site + url);
 
-            var spotifyShareUrl = 'https://www.pandora.com/share?uri=' + url;
+            var spotifyShareUrl = 'https://www.pandora.com/share?uri=' + site + url;
 
             // Open a new window for sharing on Spotify
             window.open(spotifyShareUrl, 'Share on Spotify', 'width=600,height=400');
@@ -441,7 +441,7 @@
             var site = window.location.origin;
             console.log("url", site + url);
 
-            var spotifyShareUrl = 'https://music.amazon.com/share?uri=' + url;
+            var spotifyShareUrl = 'https://music.amazon.com/share?uri=' + site + url;
 
             // Open a new window for sharing on Spotify
             window.open(spotifyShareUrl, 'Share on Spotify', 'width=600,height=400');
